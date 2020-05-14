@@ -36,10 +36,27 @@ console.log(num1.toPrecision(2))// show number  from start
 
 //library function
 
-var text = "bangladesh";
-var text1 = "is a beautiful country";
-console.log(text.length);//show total numbers of charracters    
-console.log(text.charAt(3));  //show charracter 3 number index
-console.log(text.toUpperCase()) //show uppercase of charracters    
-console.log(text.concat(text1)); // concat to string
-console.log(text.slice(0,2)); // cut charaters from 0 to 2 (0-2=2)
+// var text = "bangladesh";
+// var text1 = "is a beautiful country";
+// console.log(text.length);//show total numbers of charracters    
+// console.log(text.charAt(3));  //show charracter 3 number index
+// console.log(text.toUpperCase()) //show uppercase of charracters    
+// console.log(text.concat(text1)); // concat to string
+// console.log(text.slice(0,2)); // cut charaters from 0 to 2 (0-2=2)
+
+// //do-while loop
+// var i =5;
+// do{
+//    document.write(i);
+//    i++;
+// }while(i<10);
+
+// // while loop
+// var i =5;
+// while(i<10){
+//     document.write(i);
+//      i++;
+// }   
+
+
+

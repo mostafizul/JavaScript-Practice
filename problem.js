@@ -87,3 +87,76 @@
 //   }else{
 //     document.write("Consonant");
 //   }
+
+// // problem-8 (switch use)
+
+//   var number = prompt("Enter Number: ");
+//   switch(number){
+//     case "0":
+//         console.log("zero");
+//         break;
+//     case "1":
+//         console.log("One");
+//         break;
+//     case "2":
+//         console.log("Two"); 
+//         break;   
+//      case "3":
+//         console.log("Three");
+//         break;
+//     case "4":
+//         console.log("Four");
+//         break;
+//     case "5":
+//         console.log("Five");
+//         break;
+//     case "6":
+//         console.log("Six");
+//         break;
+//     case "7":
+//         console.log("Seven");
+//         break;
+//     case "8":
+//         console.log("Eight");
+//         break;
+//     case "9":
+//         console.log("Nine");
+//         break;
+//      default:   
+//      console.log("Invalid Number");
+//   }
+
+// Problem-9 (For Loop)
+
+//   var avg,sum=0;
+//  for (var i=1; i<=10; i++){
+//     var number = (parseInt(prompt("Enter  Number: ")));
+//     sum = sum+number;
+// }
+//    avg = sum/10;
+//  document.write("Total Average: " + avg);
+
+// Problem-10 (Calculator using Function)
+// var num1 = (parseInt(prompt("Enter First Number: ")));
+//  var num2 = (parseInt(prompt("Enter Second Number: ")));
+// function additon(num1,num2){  //passing parameter
+//      var result = num1 + num2;
+//      return result;
+// }
+// function subtraction(num1,num2){  //passing parameter
+//     var result = num1 - num2;
+//     return result;
+// }
+// function multiply(num1,num2){  //passing parameter
+//     var result = num1 * num2;
+//     return result;
+// }
+// function division(num1,num2){  //passing parameter
+//     var result = num1 / num2;
+//     return result;
+// }
+// document.write(additon(num1,num2) + "<br>"); //calling function
+// document.write(subtraction(num1,num2) + "<br>"); //calling function
+// document.write(multiply(num1,num2) + "<br>"); //calling function
+// document.write(division(num1,num2)); //calling function
+
