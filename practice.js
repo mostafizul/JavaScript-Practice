@@ -58,5 +58,30 @@ console.log(num1.toPrecision(2))// show number  from start
 //      i++;
 // }   
 
+// array and buitin functions
+var names = new Array (); //arrat declaration
+names[0] = "siam";  // array always start from index 0
+names[1] = "siam1";
+names[2] = "siam2";
+console.log(names);
+names.push("siam4"); // add elements last in array
+console.log(names);
+names.pop("siam3"); // delete elements last in array
+console.log(names);
+names.shift() //opposite of pop (remove element from first)
+console.log(names);
+names.unshift("siam6") //opposite of push (add element from first)
+console.log(names);
+names.splice(1,0,"kabita", "kutub"); //add elements from index 1. 0 means no elements remove
+console.log(names);
+names.sort(); //sorting array
+console.log(names); 
+names.reverse(); //reverse array
+console.log(names); 
+
+
+
+
+
 
 

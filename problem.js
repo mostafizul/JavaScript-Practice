@@ -160,3 +160,17 @@
 // document.write(multiply(num1,num2) + "<br>"); //calling function
 // document.write(division(num1,num2)); //calling function
 
+// // Problem-11 (print only index number 1 to 2 using array)
+
+// var number = new Array();
+//    for(var i=0; i<4; i++){
+//        number[i] = parseInt(prompt("enter values: "));
+//        document.write(number[i] + "<br/>");
+//    }
+//    document.write("<br/>");
+//    for(var i=1; i<=2; i++){
+//     document.write(number[i] + "<br/>");
+// }
+   
+   
+
