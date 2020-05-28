@@ -58,30 +58,63 @@ console.log(num1.toPrecision(2))// show number  from start
 //      i++;
 // }   
 
-// array and buitin functions
-var names = new Array (); //arrat declaration
-names[0] = "siam";  // array always start from index 0
-names[1] = "siam1";
-names[2] = "siam2";
-console.log(names);
-names.push("siam4"); // add elements last in array
-console.log(names);
-names.pop("siam3"); // delete elements last in array
-console.log(names);
-names.shift() //opposite of pop (remove element from first)
-console.log(names);
-names.unshift("siam6") //opposite of push (add element from first)
-console.log(names);
-names.splice(1,0,"kabita", "kutub"); //add elements from index 1. 0 means no elements remove
-console.log(names);
-names.sort(); //sorting array
-console.log(names); 
-names.reverse(); //reverse array
-console.log(names); 
+// // array and buitin functions
+// var names = new Array (); //arrat declaration
+// names[0] = "siam";  // array always start from index 0
+// names[1] = "siam1";
+// names[2] = "siam2";
+// console.log(names);
+// names.push("siam4"); // add elements last in array
+// console.log(names);
+// names.pop("siam3"); // delete elements last in array
+// console.log(names);
+// names.shift() //opposite of pop (remove element from first)
+// console.log(names);
+// names.unshift("siam6") //opposite of push (add element from first)
+// console.log(names);
+// names.splice(1,0,"kabita", "kutub"); //add elements from index 1. 0 means no elements remove
+// console.log(names);
+// names.sort(); //sorting array
+// console.log(names); 
+// names.reverse(); //reverse array
+// console.log(names); 
+
+//object & constructor
+  
+// function Student(name,age,sex){  //createing constructor
+//     this.name = name;
+//     this.age = age;
+//     this.sex = sex;
+    
+//     this.display = function(){   // create function in constructor
+//         console.log( this.name);
+//         console.log( this.age);
+//         console.log( this.sex);
+//     }
+// }
+//     var student1 = new Student("siam",26,"male"); //creating object & call constructor
+//     var student2 = new Student("Anisa",25,"Female"); //creating object & call constructor
+// student1.display();
+
+// console.log(Math.floor(Math.random()*11 +10 )); //random number generate from 10 to 20
 
 
+//DOM 
+// document.getElementById("heading").innerHTML = "Good by </br> Good by";
+// document.getElementsByTagName("h2")[0].innerHTML = "is a boy";
+// document.getElementsByClassName("heading2")[0].innerHTML = "is a bad boy"
+// document.querySelector("a").innerHTML = "Service";
+// document.querySelector("ul li a").innerHTML = "Service";
+// document.querySelector(".class a").innerHTML = "Service";
+// document.querySelectorAll("p")[0].innerHTML = "this is about"
 
-
-
-
+// function para(){
+//     document.querySelector("#para").innerHTML = "This is a Paragraph";
+// }
+//  function firstimg(){
+//     document.querySelector("#image-1").src = "img/trainer-3.jpg"
+//  }
+//  function secondimg(){
+//     document.querySelector("#image-1").src = "img/trainer-4.jpg"
+// }
 
