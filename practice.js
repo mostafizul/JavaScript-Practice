@@ -118,3 +118,52 @@ console.log(num1.toPrecision(2))// show number  from start
 //     document.querySelector("#image-1").src = "img/trainer-4.jpg"
 // }
 
+// //image slider
+// var photos = ["img/trainer-3.jpg","img/trainer-4.jpg"];
+// var myphoto = document.querySelector("img");
+// var count = 0;
+// function prev(){
+//     count--;
+//     if(count <0){
+//         count = photos.length-1;
+//         myphoto.src=photos[count];
+//     }else{
+//         myphoto.src=photos[count];
+//     }
+// }
+// function next(){
+//     count++;
+//     if(count >=photos.length){
+//         count = 0;
+//         myphoto.src=photos[count];
+//     }else{
+//         myphoto.src=photos[count];
+//     }
+// }
+
+// //changing style
+// var change_style = document.querySelector("#para");
+// function add(){
+//     change_style.classList.add("para-style");
+// }
+// function remove(){
+//     change_style.classList.remove("para-style");
+// }
+
+// //addEventListener
+// var change_style = document.querySelector("h1");
+
+// change_style.addEventListener("mouseover",function(){
+//     change_style.classList.add("para-style");
+// });
+// change_style.addEventListener("mouseout",function(){
+//     change_style.classList.remove("para-style");
+// });
+
+// //Multiple addEventListener
+// for(var i =0; i<3;i++) {
+// document.querySelectorAll(".btn")[i].addEventListener("click", function(){
+//     var text = this.innerHTML;
+//     document.querySelector("h1").innerHTML = text + " is clicked";
+// });
+// }
